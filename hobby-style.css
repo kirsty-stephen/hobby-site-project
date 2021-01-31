@@ -1,0 +1,73 @@
+
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: lightgrey;
+    font-family: 'Bitter' , serif;
+}
+
+#header-h1 {
+       margin: 25px;
+}
+
+.page-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightsteelblue;
+    font-family: 'Bitter' , serif;
+    width: 100%;
+}
+
+.navbar-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: lightyellow;
+    font-family: 'Bitter' , serif;
+}
+
+#home-images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: lightpink;
+}
+
+#button {
+    display: flex;
+    border: none;
+    color: black;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: grey;
+    font-family: 'Bitter' , serif;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-name {
+    background-color: lightgrey;
+}
