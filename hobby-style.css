@@ -55,16 +55,33 @@
     font-size: 30px;
   }
 
+  #faves-main {
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    font-family: "Source Sans Pro" , sans-serif;
+    justify-content: space-around;
+}
+ #faves-cards {
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    justify-content: space-evenly;
+}
+
+#favourite-books-form {
+    display: flex;
+    justify-content: center;
+    background-color:lightpink;
+    font-family: "Source Sans Pro" , sans-serif;
+}
+
   #bike-hike-all {
       display: flex;
       font-family: 'Source Sans Pro' , sans-serif;
       justify-content: space-around;
       background-color: lightpink;
   }
-
-
-
-
 
 
 .footer {
